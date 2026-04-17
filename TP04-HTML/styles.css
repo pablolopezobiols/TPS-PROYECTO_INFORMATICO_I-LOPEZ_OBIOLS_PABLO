@@ -1,0 +1,131 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-image: url(./IMAGENES/fondo.png);
+    
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.inicio{
+    font-size:50px;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-shadow:1px 1px 3px rgb(0, 0, 0,0.5) ;
+}
+
+.h2{
+    font-size:35px;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-shadow:1px 1px 3px rgb(0, 0, 0,0.5) ;
+    text-decoration: underline;
+}
+
+#Escudos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+
+
+.Parrafo{
+
+    text-align: justify;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #ececec;
+    box-shadow:0px 0px 3px rgb(0, 0, 0,0.5) ;
+    
+
+}
+
+aside{
+    position:fixed;
+	left: 0;
+	width: 25%;
+	height: 100%;
+    top: 0;
+    box-shadow: 5px 0px 5px rgb(0, 0, 0,0.5);
+    text-shadow:1px 1px 3px rgb(0, 0, 0,0.5) ;
+    background-image: url(./IMAGENES/fondo2.png);
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30%;
+    margin-right: 5%;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    list-style-type:none;
+}
+
+li a{
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    background-color: #171717;
+}
+
+
+.Ahover:hover{
+	background-color: #adadad;
+    color: rgb(33, 33, 33);
+    text-shadow:0 0 0 ;
+    box-shadow:1px 1px 3px rgb(0, 0, 0,0.5) ;
+}
+
+.Titulo{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    margin: 2%;
+}
+
+.imghref:hover{
+    display: flex;
+    transform: scale(1.1);
+}
+
+iframe{
+    margin: auto;
+    width: 500px;
+    height: 850px;
+    border-radius: 20px;
+    box-shadow:0px 2px 5px rgb(0, 0, 0,0.5) ;
+}
+
+#AllBoys{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin-top: 2%;
+    filter: drop-shadow(1px 1px 3px rgb(0, 0, 0,0.5))
+}
